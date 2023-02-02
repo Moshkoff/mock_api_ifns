@@ -1,16 +1,24 @@
 # README
 
 For demo scenarios only
+For demo scenarios only
 
-A mock microservice that takes 2 parameters as input: INN and BIK, and returns a random boolean result True or False.
+Things you may want to cover:
 
-Example:
+* Ruby version
 
-Request:
+* System dependencies
 
-curl hostname:3000/check -H 'Content-Type: application/json' -d '{"inn": "1234567890", "bik": "1234567"}'
+* Configuration
 
+* Database creation
 
-Response:
+* Database initialization
 
-{"inn":"1234567890","bik":"1234567","result":true}
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
