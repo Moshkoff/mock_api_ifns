@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+For demo scenarios only
 
-Things you may want to cover:
+A mock microservice that takes 2 parameters as input: INN and BIK, and returns a random boolean result True or False.
 
-* Ruby version
+Example:
 
-* System dependencies
+Request:
 
-* Configuration
+curl hostname:3000/check -H 'Content-Type: application/json' -d '{"inn": "1234567890", "bik": "1234567"}'
 
-* Database creation
 
-* Database initialization
+Response:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+{"inn":"1234567890","bik":"1234567","result":true}
