@@ -1,6 +1,6 @@
 # Dockerfile
 # gets the docker parent image
-FROM ruby:3.0
+FROM ruby:3.1.2
 
 RUN apt-get update && apt-get install -y npm && npm install -g yarn
 
